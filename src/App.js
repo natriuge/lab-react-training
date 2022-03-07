@@ -1,5 +1,6 @@
 import './App.css';
 import IdCard from './IdCard.js'
+import Greetings from './Greetings';
 
 const idCard = [ 
   {
@@ -20,28 +21,30 @@ const idCard = [
   }
 ]
 
+
 function App() {
   return (
     <div>
-    <div>
+      <div>
       <h1>IdCard</h1>
-    </div>
-    <div>
-    {idCard.map((currentID) => {
-      return (
-        <IdCard
-        lastName = {currentID.lastName}
-        firstName = {currentID.firstName}
-        gender = {currentID.gender}
-        height = {currentID.height/100}
-        birth = {currentID.birth.toDateString()}
-        picture = {currentID.picture}
-        />
-      )
-    }
-    
-    )}
-    </div>
+        {idCard.map((currentID) => {
+         return (
+            <IdCard
+            lastName = {currentID.lastName}
+            firstName = {currentID.firstName}
+            gender = {currentID.gender}
+            height = {currentID.height/100}
+            birth = {currentID.birth.toDateString()}
+            picture = {currentID.picture}
+            />
+          )
+        })}
+      </div>
+      <div>
+        <h1>Greetings</h1>
+        <Greetings lang = "de">Ludwig</Greetings>
+        <Greetings lang = "fr">François</Greetings>
+      </div>
     </div>
   );
 }
