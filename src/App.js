@@ -1,6 +1,7 @@
 import './App.css';
 import IdCard from './IdCard.js'
 import Greetings from './Greetings';
+import Random from './Random';
 
 const idCard = [ 
   {
@@ -44,6 +45,11 @@ function App() {
         <h1>Greetings</h1>
         <Greetings lang = "de">Ludwig</Greetings>
         <Greetings lang = "fr">François</Greetings>
+      </div>
+      <div>
+        <h1>Random</h1>
+        <Random min={1} max={6}/>
+        <Random min={1} max={100}/>
       </div>
     </div>
   );

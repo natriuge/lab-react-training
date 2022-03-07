@@ -35,7 +35,13 @@ code {
   margin: 0 0 10px 0;
   padding: 5px;
 
-  
+}
+
+.random-template {
+  border: 1px solid black;
+  margin: 0 0 10px 0;
+  padding: 5px;
+
 }
 
 
