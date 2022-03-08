@@ -93,3 +93,38 @@ code {
   margin-top: 0;
   
 }
+
+.stars-template h1 {
+  margin: 0;
+
+}
+
+
+.driver-template {
+  width: 98%;
+  height: 120px;
+  border-radius: 10px;
+  background-color: #445FB9;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.driver-pic {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.driver-info h2 {
+  margin: 0;
+}
+
+
+

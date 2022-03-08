@@ -9,17 +9,29 @@ function Rating(props) {
     const ratingNumber = parseFloat(props.children)
     
     if (Math.floor(ratingNumber) === 0) {
-        return <h1>{noStar}</h1>
+        return <div className = "stars-template">
+                 <h1>{noStar}</h1>
+               </div>
     } else if (ratingNumber <= 1.49) {
-        return <h1>{oneStar}</h1>
+        return <div className = "stars-template">
+                 <h1>{oneStar}</h1>
+               </div>
     } else if (ratingNumber <= 2.49) {
-        return <h1>{twoStars}</h1>
+        return <div className = "stars-template">
+                 <h1>{twoStars}</h1>
+               </div>
     } else if (ratingNumber <= 3.49) {
-        return <h1>{threeStars}</h1>
+        return <div className = "stars-template">
+                 <h1>{threeStars}</h1>
+               </div>
     } else if (ratingNumber <= 4.49) {
-        return <h1>{fourStars}</h1>
+        return <div className = "stars-template">
+                 <h1>{fourStars}</h1>
+               </div>
     } else {
-        return <h1>{fiveStars}</h1>
+        return <div className = "stars-template">
+                <h1>{fiveStars}</h1>
+               </div>
     }
 }
 
