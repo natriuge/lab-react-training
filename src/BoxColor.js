@@ -1,6 +1,4 @@
 
-
-
 function BoxColor(props) {
     const styleDiv1 = {
         backgroundColor: "rgb("+props.r+","+props.g+","+props.b+")",
@@ -17,19 +15,14 @@ function BoxColor(props) {
     const bConvert = props.b.toString(16).length === 1 ? '0'+props.b.toString(16):props.b.toString(16);
 
 
-    if (props.g < 1 ) {
-       return <div className="box-color-template" style={styleDiv1}>
-                rgb({props.r},{props.g},{props.b})
-                <br/>
-                #{rConvert}{gConvert}{bConvert}
-              </div>
-    } else {
-        return <div className="box-color-template" style={styleDiv2}>
-                rgb({props.r},{props.g},{props.b})
-                <br/>
-                #{rConvert}{gConvert}{bConvert}
-               </div>
-    }
+    const styles = props.g < 1 ? styleDiv1 : styleDiv2
+    return (
+        <div className = "box-color-template" style = {styles}>
+            rgb({props.r},{props.g},{props.b})
+            <br/>
+            #{rConvert}{gConvert}{bConvert}
+        </div>
+    )
 }
 
 export default BoxColor;

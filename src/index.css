@@ -51,4 +51,46 @@ code {
   text-align: center;
 }
 
+.cc-container {
+  float:left;
+}
 
+
+.cc-template {
+  width: 280px;
+  height: 130px;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.image-template {
+  text-align: right;
+}
+
+.logo-image {
+  width: 50px;
+  margin-top: 15px;
+  
+}
+
+.cc-number {
+  font-size: 30px;
+  margin: 20px 0 20px 0;
+  
+}
+
+.cc-expiration {
+  white-space: pre;
+  margin: 0;
+
+}
+
+.cc-owner {
+  margin-top: 0;
+  
+}
