@@ -1,11 +1,12 @@
 import './App.css';
-import IdCard from './IdCard.js'
+import IdCard from './IdCard';
 import Greetings from './Greetings';
 import Random from './Random';
 import BoxColor from './BoxColor';
 import CreditCard from './CreditCard';
 import Rating from './Rating';
 import DriverCard  from './DriverCard';
+import LikeButton from './LikeButton';
 
 
 function App() {
@@ -111,6 +112,11 @@ function App() {
           licensePlate: "BE33ER"
         }}
       />
+      </div>
+      <div>
+      <h1>LikeButton</h1>
+      <LikeButton/>
+      <LikeButton/>
       </div>
     </div>
   );
