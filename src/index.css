@@ -149,4 +149,16 @@ code {
 
 }
 
+.carousel-button {
+  width: 50px;
+  height: 30px;
+  font-size: 15px;
+  color: black;
+  margin: 0 10px 0 10px;;
+}
 
+.carousel-container {
+  display: flex;
+  align-items: flex-end
+
+}
