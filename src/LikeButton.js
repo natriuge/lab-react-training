@@ -16,11 +16,13 @@ function LikeButton() {
 
     const sorted = { backgroundColor: arrColors[state % arrColors.length]}
 
+
+
     return (
     <div className = 'like-button-container'>
     <button style = {sorted} onClick = { IncrementClick } className = {'like-button-layout'} > {state} Likes</button>
     </div>
-    )
+    )    
 }
 
 
