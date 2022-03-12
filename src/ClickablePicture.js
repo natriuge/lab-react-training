@@ -7,8 +7,6 @@ function ClickablePicture(props) {
     const [state, setState] = useState(true);
 
     function handleClick(event) {
-
-        console.log(state)
         setState(!state)
 
     }
@@ -16,7 +14,7 @@ function ClickablePicture(props) {
 
     return (
         <div className = 'clickable-pic-layout'>
-            <img src = { state ? props.img : props.imgClicked } onClick = {handleClick} alt= 'img'/>
+            <img src = { state ? props.img : props.imgClicked } onClick = {handleClick} alt= 'img' className = 'clickable-pic-layout'/>
         </div>
     )
 

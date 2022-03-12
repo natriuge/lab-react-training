@@ -10,8 +10,7 @@ import LikeButton from './LikeButton';
 import ClickablePicture from './ClickablePicture';
 import user1 from './assets/images/maxence.png';
 import user2 from './assets/images/maxence-glasses.png';
-
-
+import Dice from './Dice';
 
 function App() {
   return (
@@ -128,6 +127,10 @@ function App() {
           img= {user1}
           imgClicked= {user2}
         />
+        <div>
+        <h1>Dice</h1>
+        <Dice />
+        </div>
       </div>
     </div>
   );

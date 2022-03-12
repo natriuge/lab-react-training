@@ -139,8 +139,14 @@ code {
 }
 
 .clickable-pic-layout {
-  width: 40px;
+  width: 100px;
   height: auto;
+}
+
+.dice-template {
+  width: 100px;
+  height: auto;
+
 }
 
 
