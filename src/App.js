@@ -12,6 +12,7 @@ import user1 from './assets/images/maxence.png';
 import user2 from './assets/images/maxence-glasses.png';
 import Dice from './Dice';
 import Carousel from './Carousel';
+import NumbersTable from './NumbersTable';
 
 function App() {
   return (
@@ -142,6 +143,10 @@ function App() {
               'https://randomuser.me/api/portraits/men/2.jpg' 
             ]}
           />
+        </div>
+        <div>
+          <h1>NumbersTable</h1>
+          <NumbersTable limit={12} />
         </div>
       </div>
     </div>

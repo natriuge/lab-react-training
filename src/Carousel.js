@@ -3,8 +3,6 @@ import { useState } from 'react';
 
 function Carousel(props) {
 
-    console.log(props)
-
     const {images} = props
 
     const [state, setState] = useState(0)
