@@ -32,17 +32,3 @@ function Carousel(props) {
 
 export default Carousel;
 
-
-
-//mostra imagem inicial 
-// state com imagem inicial
-
-//mostra 2 botoes (left e right)
-
-
-//se o botao for apertado
-// event click do botao com target de direita ou esquerda
-
-//muda a imagem
-// nova função muda o state
-
