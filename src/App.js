@@ -13,7 +13,7 @@ import user2 from './assets/images/maxence-glasses.png';
 import Dice from './Dice';
 import Carousel from './Carousel';
 import NumbersTable from './NumbersTable';
-
+import FaceBook from './Facebook';
 
 function App() {
   return (
@@ -148,6 +148,10 @@ function App() {
         <div>
           <h1>NumbersTable</h1>
           <NumbersTable limit={12} />
+        </div>
+        <div>
+          <h1>Facebook</h1>
+          <FaceBook />
         </div>
       </div>
     </div>

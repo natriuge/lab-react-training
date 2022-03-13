@@ -25,6 +25,13 @@ code {
   margin: 6px 6px 3px 6px;
 }
 
+.picture-layout img{
+  width: 200px;
+  height: auto;
+}
+
+
+
 .information-layout {
   margin-top: 6px;
 
