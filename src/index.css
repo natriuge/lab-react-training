@@ -31,7 +31,6 @@ code {
 }
 
 
-
 .information-layout {
   margin-top: 6px;
 
@@ -106,7 +105,6 @@ code {
 
 }
 
-
 .driver-template {
   width: 98%;
   height: 120px;
@@ -119,7 +117,6 @@ code {
   justify-content: center;
 
 }
-
 
 .driver-pic {
   width: 100px;
@@ -178,3 +175,17 @@ code {
   vertical-align:middle;
 
 }
+
+.country-button-layout {
+  border: 1px solid black;
+  width: 110px;
+  height: 40px;
+  font-size: 18px;
+  margin: 2px;
+
+}
+
+.country-button-container {
+  margin: 0 0 5px 0;
+}
+

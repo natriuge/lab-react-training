@@ -16,6 +16,10 @@ function IdCard(props) {
                 <b>Height:</b> {props.height/100}m
                 <br/>
                 <b>Birth:</b> {props.birth.toDateString()}
+                <br/>
+                <b>Country:</b> {props.country}
+                <br/>
+                <b>Type</b> {props.isStudent === true ? 'Student' : 'Teacher'}
             </div>
     </div>
     )
